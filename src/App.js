@@ -73,14 +73,3 @@ function App() {
 }
 
 export default App;
-
-// <Routes>
-//         <Route path="/" element={<AboutMe />} />
-//         <Route path="/dev" element={<ServiceSection />} />
-//         <Route path="/portfolio" element={<Portfolio />} />
-//         <Route path="/portfolio/:slug" element={<Portfolio />} />
-//         <Route path="/contact" element={<ContactMe />} />
-//         <Route path="/admin" element={<Admin location={location} />} />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/register" element={<Register/>} />
-//       </Routes>
