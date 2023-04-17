@@ -21,8 +21,10 @@ const UserPage = () => {
   }
 
   const findUser = async () => {
+    console.log("usuario eh" + localStorage.getItem("user"))
     const response = await UsersService.index(localStorage.getItem("user"));
     setUser(response.data);
+    console.log(response)
   };
 
   useEffect(() => {

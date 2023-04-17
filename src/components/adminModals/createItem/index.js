@@ -32,7 +32,7 @@ const CreateItem = ({ show, setShow, noAdmin, setNoAdmin }) => {
   const [imgUrl, setImgUrl] = useState("");
   const [images, setImages] = useState(["https://i.ibb.co/6Zsrcrv/def.png"]);
 
-  const handleAdd = () => {
+  const handleAdd = (e) => {
     if (user.admin) {
       ProjectsService.addItem({
         title: title,
@@ -45,6 +45,7 @@ const CreateItem = ({ show, setShow, noAdmin, setNoAdmin }) => {
       });
       // window.location.reload(false);
     } else {
+      e.preventDefault()
       setShow(false);
       setNoAdmin(true);
     }

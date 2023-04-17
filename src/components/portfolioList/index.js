@@ -28,7 +28,7 @@ const PortfolioList = () => {
   const [techsChoice, setTechsChoice] = useState([]);
   const [id, setId] = useState("");
 
-  const handleEdit = () => {
+  const handleEdit = (e) => {
     if (user.admin) {
       ProjectsService.editItem(id, {
         title: title,
@@ -40,6 +40,7 @@ const PortfolioList = () => {
       });
       //window.location.reload(false);
     } else {
+      e.preventDefault()
       setShowUp(false);
       setNoAdmin(true);
     }
