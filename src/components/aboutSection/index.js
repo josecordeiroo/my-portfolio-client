@@ -10,7 +10,7 @@ import {
   AboutMob,
 } from "./styles";
 
-import curriculo from "../../assets/JoseCordeiroCV.png";
+import curriculo from "../../assets/josecordeiro.pdf";
 
 //Animations
 import { motion } from "framer-motion/dist/framer-motion";
@@ -50,16 +50,16 @@ const AboutSection = ({ language }) => {
           {language ? (
             <MyDescription variants={fade}>
               Hello, world! Vivo na capital de São Paulo e sou um desenvolvedor
-              FullStack que trabalha com Javascript, Python e Node.Js no front e no
-              back-end, dominando diversas tecnologias atuais do mercado,
+              FullStack que trabalha com Javascript, Python e Node.Js no front e
+              no back-end, dominando diversas tecnologias atuais do mercado,
               desenvolvendo soluções eficazes de forma rápida e simplificada.
               Atualmente cursando Análise e Desenvolvimento de Sistemas pela
               Universidade de Santo Amaro. Trabalhei com tecnologia minha vida
               inteira, sendo técnico em informática e de celulares por anos até
               chegar na área de desenvolvimento, acumulando uma bagagem que me
               ajudou a entender conceitos de forma bastante abrangente. Minhas
-              principais características são, sem dúvida, a dedicação
-              e disciplina. Amante de esportes, pratico e cuido da minha saúde
+              principais características são, sem dúvida, a dedicação e
+              disciplina. Amante de esportes, pratico e cuido da minha saúde
               todos os dias, rigorosamente. Procuro desafios, não sou acostumado
               a desistir nem nos mais difíceis. Gosto de trabalhar e fazer parte
               de uma equipe com espirito vencedor. Procuro fazer com que todos à
@@ -69,20 +69,20 @@ const AboutSection = ({ language }) => {
           ) : (
             <MyDescription variants={fade}>
               Hello, world! I live in the capital of São Paulo, Brazil, and I'm
-              a FullStack developer working with Javascript, Python and Node.Js on the
-              front and back-end, mastering several current technologies of the
-              market, developing effective solutions quickly and simplified.
-              Currently studying Analysis and Development of Systems by the
-              University of Santo Amaro. I worked with technology my whole life,
-              being a computer technician and cell phones for years to reach the
-              development area, accumulating a baggage that helped me to
-              understand concepts in a quite comprehensive. My main
-              characteristics are, without doubt, the dedication and
-              discipline. Sports lover, I practice and take care of my health
-              every day, rigorously. I look for challenges, I'm not used to
-              giving up even in the most difficult. I enjoy working and being
-              part of a team with winning spirit. I try to make everyone around
-              me are constantly evolving as I seek to be every day of my life.
+              a FullStack developer working with Javascript, Python and Node.Js
+              on the front and back-end, mastering several current technologies
+              of the market, developing effective solutions quickly and
+              simplified. Currently studying Analysis and Development of Systems
+              by the University of Santo Amaro. I worked with technology my
+              whole life, being a computer technician and cell phones for years
+              to reach the development area, accumulating a baggage that helped
+              me to understand concepts in a quite comprehensive. My main
+              characteristics are, without doubt, the dedication and discipline.
+              Sports lover, I practice and take care of my health every day,
+              rigorously. I look for challenges, I'm not used to giving up even
+              in the most difficult. I enjoy working and being part of a team
+              with winning spirit. I try to make everyone around me are
+              constantly evolving as I seek to be every day of my life.
             </MyDescription>
           )}
           <ImageMobile>
@@ -90,11 +90,7 @@ const AboutSection = ({ language }) => {
           </ImageMobile>
           <div className="buttons">
             <a href={curriculo} download="JoseCordeiroFullStackCV">
-              <button>
-                {language
-                  ? "Baixar CV"
-                  : "Download CV"}{" "}
-              </button>
+              <button>{language ? "Baixar CV" : "Download CV"} </button>
             </a>
             <a href="#services">
               {" "}
@@ -132,16 +128,16 @@ const AboutSection = ({ language }) => {
           {language ? (
             <MyDescription>
               Hello, world! Vivo na capital de São Paulo e sou um desenvolvedor
-              FullStack que trabalha com Javascript, Python e Node.Js no front e no
-              back-end, dominando diversas tecnologias atuais do mercado,
+              FullStack que trabalha com Javascript, Python e Node.Js no front e
+              no back-end, dominando diversas tecnologias atuais do mercado,
               desenvolvendo soluções eficazes de forma rápida e simplificada.
               Atualmente cursando Análise e Desenvolvimento de Sistemas pela
               Universidade de Santo Amaro. Trabalhei com tecnologia minha vida
               inteira, sendo técnico em informática e de celulares por anos até
               chegar na área de desenvolvimento, acumulando uma bagagem que me
               ajudou a entender conceitos de forma bastante abrangente. Minhas
-              principais características são, sem dúvida, a dedicação
-              e disciplina. Amante de esportes, pratico e cuido da minha saúde
+              principais características são, sem dúvida, a dedicação e
+              disciplina. Amante de esportes, pratico e cuido da minha saúde
               todos os dias, rigorosamente. Procuro desafios, não sou acostumado
               a desistir nem nos mais difíceis. Gosto de trabalhar e fazer parte
               de uma equipe com espirito vencedor. Procuro fazer com que todos à
@@ -151,32 +147,27 @@ const AboutSection = ({ language }) => {
           ) : (
             <MyDescription>
               Hello, world! I live in the capital of São Paulo, Brazil, and I'm
-              a FullStack developer working with Javascript, Python and Node.Js on the
-              front and back-end, mastering several current technologies of the
-              market, developing effective solutions quickly and simplified.
-              Currently studying Analysis and Development of Systems by the
-              University of Santo Amaro. I worked with technology my whole life,
-              being a computer technician and cell phones for years to reach the
-              development area, accumulating a baggage that helped me to
-              understand concepts in a quite comprehensive. My main
-              characteristics are, without doubt, the dedication and
-              discipline. Sports lover, I practice and take care of my health
-              every day, rigorously. I look for challenges, I'm not used to
-              giving up even in the most difficult. I enjoy working and being
-              part of a team with winning spirit. I try to make everyone around
-              me are constantly evolving as I seek to be every day of my life.
+              a FullStack developer working with Javascript, Python and Node.Js
+              on the front and back-end, mastering several current technologies
+              of the market, developing effective solutions quickly and
+              simplified. Currently studying Analysis and Development of Systems
+              by the University of Santo Amaro. I worked with technology my
+              whole life, being a computer technician and cell phones for years
+              to reach the development area, accumulating a baggage that helped
+              me to understand concepts in a quite comprehensive. My main
+              characteristics are, without doubt, the dedication and discipline.
+              Sports lover, I practice and take care of my health every day,
+              rigorously. I look for challenges, I'm not used to giving up even
+              in the most difficult. I enjoy working and being part of a team
+              with winning spirit. I try to make everyone around me are
+              constantly evolving as I seek to be every day of my life.
             </MyDescription>
           )}
 
           <div className="buttons">
             <a href={curriculo} download="JoseCordeiroFullStack">
-              <button>
-                {language
-                  ? "Baixar CV"
-                  : "Download CV"}{" "}
-              </button>
+              <button>{language ? "Baixar CV" : "Download CV"} </button>
             </a>
-           
           </div>
         </Description>
       </AboutMob>
