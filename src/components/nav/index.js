@@ -26,10 +26,10 @@ const NavBar = ({ language, setLanguage }) => {
           <a
             target="_blank" rel="noopener noreferrer"
             className="wpp"
-            href="https://api.whatsapp.com/send?phone=5511912339964"
+            href="https://wa.me/5511984550603"
           >
             <img alt="" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-png-0.png" />
-            11 91233-9964
+            11 98455-0603
           </a>
         </div>
         <ul>
@@ -126,10 +126,10 @@ const NavBar = ({ language, setLanguage }) => {
               <a
                 target="_blank" rel="noopener noreferrer"
                 className="wpp"
-                href="https://api.whatsapp.com/send?phone=5511912339964"
+                href="https://wa.me/5511984550603"
               >
                 <img alt="" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-png-0.png" />
-                11 91233-9964
+                11 98455-0603
               </a>
             </div>
           </div>

@@ -40,7 +40,7 @@ const ContactMe = ({ language }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="wpp"
-                    href="https://api.whatsapp.com/send?phone=5511912339964"
+                    href="https://wa.me/5511984550603"
                   >
                     <img
                       alt=""
@@ -104,7 +104,7 @@ const ContactMe = ({ language }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="wpp"
-              href="https://api.whatsapp.com/send?phone=5511912339964"
+              href="https://wa.me/5511984550603"
             >
               <img
                 alt=""
